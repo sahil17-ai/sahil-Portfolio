@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f18"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#63b3ed"/>
+      <stop offset="100%" style="stop-color:#9f7aea"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="100" height="100" rx="20" fill="url(#bgGrad)"/>
+  <line x1="10" y1="30" x2="90" y2="30" stroke="#63b3ed" stroke-width="0.4" opacity="0.2"/>
+  <line x1="10" y1="50" x2="90" y2="50" stroke="#63b3ed" stroke-width="0.4" opacity="0.2"/>
+  <line x1="10" y1="70" x2="90" y2="70" stroke="#63b3ed" stroke-width="0.4" opacity="0.2"/>
+  <line x1="30" y1="10" x2="30" y2="90" stroke="#63b3ed" stroke-width="0.4" opacity="0.2"/>
+  <line x1="50" y1="10" x2="50" y2="90" stroke="#63b3ed" stroke-width="0.4" opacity="0.2"/>
+  <line x1="70" y1="10" x2="70" y2="90" stroke="#63b3ed" stroke-width="0.4" opacity="0.2"/>
+  <rect x="14" y="62" width="10" height="18" rx="2" fill="url(#accentGrad)" opacity="0.7"/>
+  <rect x="28" y="54" width="10" height="26" rx="2" fill="url(#accentGrad)" opacity="0.85"/>
+  <rect x="42" y="46" width="10" height="34" rx="2" fill="url(#accentGrad)" opacity="1" filter="url(#glow)"/>
+  <rect x="56" y="56" width="10" height="24" rx="2" fill="url(#accentGrad)" opacity="0.8"/>
+  <rect x="70" y="48" width="10" height="32" rx="2" fill="url(#accentGrad)" opacity="0.9"/>
+  <polyline points="19,60 33,50 47,40 61,52 75,44"
+    fill="none" stroke="#68d391" stroke-width="2.2"
+    stroke-linecap="round" stroke-linejoin="round"
+    filter="url(#glow)" opacity="0.9"/>
+  <circle cx="75" cy="44" r="3.5" fill="#68d391" filter="url(#glow)"/>
+  <text x="16" y="26" font-family="Arial Black, Arial" font-weight="900"
+    font-size="18" fill="url(#accentGrad)" filter="url(#glow)">S</text>
+</svg>

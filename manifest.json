@@ -1,0 +1,20 @@
+{
+  "name": "Sahil Dorugade — Data Scientist",
+  "short_name": "Sahil.dev",
+  "description": "Portfolio of Sahil Dorugade, Data Scientist",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#060608",
+  "theme_color": "#63b3ed",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["portfolio", "business"],
+  "lang": "en"
+}
